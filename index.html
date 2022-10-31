@@ -24,7 +24,7 @@
       <div class="container">
         <div class="site-nav">
           <nav class="main-nav">
-            <a class="logo-header" href="./index.html"
+            <a class="logo logo-header" href="./index.html"
               >Web<span class="logo-header-end">Studio</span></a
             >
             <ul class="nav">
@@ -38,18 +38,18 @@
             </ul>
           </nav>
 
-          <ul class="contacts">
-            <li class="contacts-list">
-              <a class="contacts-link" href="mailto:info@devstudio.com">
-                <svg class="contacts-link-icon envelope">
+          <ul class="our-contacts">
+            <li class="our-contacts__item">
+              <a class="our-contacts__link" href="mailto:info@devstudio.com">
+                <svg class="our-contacts__icon" width="16" height="12">
                   <use href="./images/icons.svg#envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
-            <li class="contacts-list">
-              <a class="contacts-link" href="tel:+380961111111">
-                <svg class="contacts-link-icon smartphone">
+            <li class="our-contacts__item">
+              <a class="our-contacts__link" href="tel:+380961111111">
+                <svg class="our-contacts__icon" width="10" height="16">
                   <use href="./images/icons.svg#smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -63,61 +63,63 @@
       <!-- Hero section -->
 
       <section class="hero">
-        <div class="hero-background">
+        <div class="hero__background">
           <div class="container">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="main-button hero__main-button" data-modal-open>
+              Замовити послугу
+            </button>
           </div>
         </div>
       </section>
 
-      <!-- Our advantages section -->
+      <!-- Our Advantages -->
 
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advantages">
-            <li class="advantages-list">
-              <div class="advantages-thumb">
-                <svg class="our-adnvantages-icon">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="adnvantages__icon">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Увага до деталей</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__title">Увага до деталей</h3>
+              <p class="advantages__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="advantages-list">
-              <div class="advantages-thumb">
-                <svg class="our-adnvantages-icon">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="adnvantages__icon">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Пунктуальність</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__title">Пунктуальність</h3>
+              <p class="advantages__text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="advantages-list">
-              <div class="advantages-thumb">
-                <svg class="our-adnvantages-icon">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="adnvantages__icon">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Планування</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__title">Планування</h3>
+              <p class="advantages__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="advantages-list">
-              <div class="advantages-thumb">
-                <svg class="our-adnvantages-icon">
+            <li class="advantages__item">
+              <div class="advantages__thumb">
+                <svg class="adnvantages__icon">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="advantages-title">Сучасні технології</h3>
-              <p class="advantages-text">
+              <h3 class="advantages__title">Сучасні технології</h3>
+              <p class="advantages__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -125,45 +127,45 @@
         </div>
       </section>
 
-      <!-- What we do section -->
+      <!-- Our directions -->
 
-      <section class="what-we-do">
+      <section class="section section--padding-top">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="what-we-do-list">
-            <li class="what-we-do-item">
+          <h2 class="section__title">Чим ми займаємося</h2>
+          <ul class="our-directions">
+            <li class="our-directions__item">
               <img src="./images/computer.jpg" alt="людина працює за компьютером" width="370" />
-              <p class="what-we-do-text">Десктопні додатки</p>
+              <p class="our-directions__text">Десктопні додатки</p>
             </li>
-            <li class="what-we-do-item">
+            <li class="our-directions__item">
               <img
                 src="./images/smartphone.jpg"
                 alt="людина з телефоном та ноутбуком"
                 width="370"
               />
-              <p class="what-we-do-text">Мобільні додатки</p>
+              <p class="our-directions__text">Мобільні додатки</p>
             </li>
-            <li class="what-we-do-item">
+            <li class="our-directions__item">
               <img src="./images/tablet.jpg" alt="людина працює з планшетом" width="370" />
-              <p class="what-we-do-text">Дизайнерські рішення</p>
+              <p class="our-directions__text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <!-- Our team section -->
+      <!-- Our team -->
 
-      <section class="ourteam-background section">
+      <section class="section section--background-color">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="ourteam">
-            <li class="ourteam-list">
-              <div class="scene-flip">
-                <div class="card-flip">
-                  <div class="team-card-flip">
+          <h2 class="section__title">Наша команда</h2>
+          <ul class="our-team">
+            <li class="our-team__item">
+              <div class="our-team__scene">
+                <div class="our-team__card-rotate">
+                  <div class="our-team__card-position">
                     <img src="./images/igor.jpg" alt="усміхнений хлопець в окулярах" width="270" />
                   </div>
-                  <div class="team-card-flip flip-card-text">
+                  <div class="our-team__card-position our-team__card-position--rotated">
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro
                       voluptas doloribus vel, incidunt fugit a doloremque quaerat magnam quia
@@ -174,34 +176,51 @@
                   </div>
                 </div>
               </div>
-              <div class="ourteam-cards">
-                <h3 class="ourteam-title">Ігор Дем'яненко</h3>
-                <p class="ourteam-text">Product Designer</p>
+              <div class="our-team__thumb">
+                <p class="our-team__title">Ігор Дем'яненко</p>
+                <p class="our-team__text">Product Designer</p>
                 <ul class="soc-networks">
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow">
-                      <svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="soc-networks__icon">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -209,12 +228,12 @@
                 </ul>
               </div>
             </li>
-            <li class="ourteam-list">
-              <div class="scene-spiral">
-                <div class="card-spiral-face">
+            <li class="our-team__item">
+              <div class="our-team__card-funnel">
+                <div class="our-team__card-photo">
                   <img src="./images/olga.jpg" alt="симпатична дівчина в окулярах" width="270" />
                 </div>
-                <div class="card-spiral-text">
+                <div class="our-team__card-text">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro voluptas
                     doloribus vel, incidunt fugit a doloremque quaerat magnam quia reiciendis nobis
@@ -223,34 +242,51 @@
                   </p>
                 </div>
               </div>
-              <div class="ourteam-cards">
-                <h3 class="ourteam-title">Ольга Рєпіна</h3>
-                <p class="ourteam-text">Frontend Developer</p>
+              <div class="our-team__thumb">
+                <p class="our-team__title">Ольга Рєпіна</p>
+                <p class="our-team__text">Frontend Developer</p>
                 <ul class="soc-networks">
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow">
-                      <svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="soc-networks__icon">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -258,13 +294,13 @@
                 </ul>
               </div>
             </li>
-            <li class="ourteam-list">
-              <div class="scene-flip">
-                <div class="card-flip">
-                  <div class="team-card-flip">
+            <li class="our-team__item">
+              <div class="our-team__scene">
+                <div class="our-team__card-rotate">
+                  <div class="our-team__card-position">
                     <img src="./images/mykola.jpg" alt="задоволений життям хлопець" width="270" />
                   </div>
-                  <div class="team-card-flip flip-card-text">
+                  <div class="our-team__card-position our-team__card-position--rotated">
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro
                       voluptas doloribus vel, incidunt fugit a doloremque quaerat magnam quia
@@ -275,34 +311,51 @@
                   </div>
                 </div>
               </div>
-              <div class="ourteam-cards">
-                <h3 class="ourteam-title">Микола Тарасов</h3>
-                <p class="ourteam-text">Marketing</p>
+              <div class="our-team__thumb">
+                <p class="our-team__title">Микола Тарасов</p>
+                <p class="our-team__text">Marketing</p>
                 <ul class="soc-networks">
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow">
-                      <svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="soc-networks__icon">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -311,12 +364,12 @@
               </div>
             </li>
 
-            <li class="ourteam-list">
-              <div class="scene-spiral">
-                <div class="card-spiral-face">
+            <li class="our-team__item">
+              <div class="our-team__card-funnel">
+                <div class="our-team__card-photo">
                   <img src="./images/myhajlo.jpg" alt="хитрий хлорець в окулярах" width="270" />
                 </div>
-                <div class="card-spiral-text">
+                <div class="our-team__card-text">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro voluptas
                     doloribus vel, incidunt fugit a doloremque quaerat magnam quia reiciendis nobis
@@ -325,34 +378,51 @@
                   </p>
                 </div>
               </div>
-              <div class="ourteam-cards">
-                <h3 class="ourteam-title">Михайло Єрмаков</h3>
-                <p class="ourteam-text">UI Designer</p>
+              <div class="our-team__thumb">
+                <p class="our-team__title">Михайло Єрмаков</p>
+                <p class="our-team__text">UI Designer</p>
                 <ul class="soc-networks">
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow">
-                      <svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      <svg class="soc-networks__icon">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="soc-list">
-                    <a class="soc-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                      ><svg class="soc-icon">
+                  <li class="soc-networks__item">
+                    <a
+                      class="soc-networks__link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      ><svg class="soc-networks__icon">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
                     </a>
@@ -364,40 +434,76 @@
         </div>
       </section>
 
-      <!-- Constant clients section -->
+      <!-- Regular clients -->
 
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="constant-clients">
-            <li class="clients-list">
-              <a class="clients-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                ><svg class="clients-icon"><use href="./images/icons.svg#Logo1"></use></svg>
+          <h2 class="section__title">Постійні клієнти</h2>
+          <ul class="regular-clients">
+            <li class="regular-clients__item">
+              <a
+                class="regular-clients__link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><svg class="regular-clients__icon">
+                  <use href="./images/icons.svg#Logo1"></use>
+                </svg>
               </a>
             </li>
-            <li class="clients-list">
-              <a class="clients-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                ><svg class="clients-icon"><use href="./images/icons.svg#Logo2"></use></svg>
+            <li class="regular-clients__item">
+              <a
+                class="regular-clients__link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><svg class="regular-clients__icon">
+                  <use href="./images/icons.svg#Logo2"></use>
+                </svg>
               </a>
             </li>
-            <li class="clients-list">
-              <a class="clients-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                ><svg class="clients-icon"><use href="./images/icons.svg#Logo3"></use></svg>
+            <li class="regular-clients__item">
+              <a
+                class="regular-clients__link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><svg class="regular-clients__icon">
+                  <use href="./images/icons.svg#Logo3"></use>
+                </svg>
               </a>
             </li>
-            <li class="clients-list">
-              <a class="clients-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                ><svg class="clients-icon"><use href="./images/icons.svg#Logo4"></use></svg>
+            <li class="regular-clients__item">
+              <a
+                class="regular-clients__link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><svg class="regular-clients__icon">
+                  <use href="./images/icons.svg#Logo4"></use>
+                </svg>
               </a>
             </li>
-            <li class="clients-list">
-              <a class="clients-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                ><svg class="clients-icon"><use href="./images/icons.svg#Logo5"></use></svg>
+            <li class="regular-clients__item">
+              <a
+                class="regular-clients__link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><svg class="regular-clients__icon">
+                  <use href="./images/icons.svg#Logo5"></use>
+                </svg>
               </a>
             </li>
-            <li class="clients-list">
-              <a class="clients-link" href="#" target="_blank" rel="noopener noreferrer nofollow"
-                ><svg class="clients-icon"><use href="./images/icons.svg#Logo6"></use></svg>
+            <li class="regular-clients__item">
+              <a
+                class="regular-clients__link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><svg class="regular-clients__icon">
+                  <use href="./images/icons.svg#Logo6"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -437,47 +543,47 @@
           <div class="join-us">
             <p class="footer-headers-text">приєднуйтесь</p>
             <ul class="soc-networks">
-              <li class="soc-list">
+              <li class="soc-networks__item">
                 <a
-                  class="soc-link soc-link-footer"
+                  class="soc-networks__link soc-network__link--dark-theme"
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  ><svg class="soc-icon">
+                  ><svg class="soc-networks__icon">
                     <use href="./images/icons.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="soc-list">
+              <li class="soc-networks__item">
                 <a
-                  class="soc-link soc-link-footer"
+                  class="soc-networks__link soc-network__link--dark-theme"
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                 >
-                  <svg class="soc-icon">
+                  <svg class="soc-networks__icon">
                     <use href="./images/icons.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="soc-list">
+              <li class="soc-networks__item">
                 <a
-                  class="soc-link soc-link-footer"
+                  class="soc-networks__link soc-network__link--dark-theme"
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  ><svg class="soc-icon">
+                  ><svg class="soc-networks__icon">
                     <use href="./images/icons.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="soc-list">
+              <li class="soc-networks__item">
                 <a
-                  class="soc-link soc-link-footer"
+                  class="soc-networks__link soc-network__link--dark-theme"
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  ><svg class="soc-icon">
+                  ><svg class="soc-networks__icon">
                     <use href="./images/icons.svg#linkedin"></use>
                   </svg>
                 </a>
@@ -490,7 +596,7 @@
               <label>
                 <input type="email" class="sign-us-input" placeholder="E-mail" />
               </label>
-              <button type="submit" class="sign-us-button">
+              <button type="submit" class="main-button sign-us__main-button">
                 Підписатися
                 <svg class="icon-send">
                   <use href="./images/icons.svg#icon-send"></use>
@@ -501,6 +607,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- Backdrop -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -562,12 +670,12 @@
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
             </span>
-            <div class="policy-border"></div>
+
             Погоджуюся з розсилкою та приймаю&nbsp
             <a href="#" class="policy-link">Умови договору</a>
           </label>
 
-          <button type="submit" class="send-data-button">Відправити</button>
+          <button type="submit" class="main-button policy__main-button">Відправити</button>
         </form>
       </div>
     </div>
