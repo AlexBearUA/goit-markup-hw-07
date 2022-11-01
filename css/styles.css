@@ -164,12 +164,12 @@ img {
   margin-bottom: 20px;
 }
 
-.logo__accent {
+.logo__ending-header {
   color: var(--logo-accent-color);
   line-height: 1.38;
 }
 
-.logo__accent--color {
+.logo__ending-footer {
   color: var(--main-background-color);
 }
 
@@ -273,12 +273,12 @@ img {
 
 /* Footer */
 
-.footer-background {
+.footer {
   padding: 60px 0;
   background-color: var(--secondary-background-color);
 }
 
-.footer {
+.footer__content {
   display: flex;
   gap: 70px;
   align-items: baseline;
@@ -658,14 +658,14 @@ img {
 
 /* Filtr-menu buttons */
 
-.our-projects__filtr {
+.projects-filtr {
   display: flex;
   justify-content: center;
   column-gap: 8px;
   margin-bottom: 50px;
 }
 
-.our-projects__button {
+.projects-filtr__button {
   padding: 6px 22px;
 
   border: none;
@@ -683,13 +683,13 @@ img {
     box-shadow var(--time-transition) var(--time-func);
 }
 
-.our-projects__button--active {
+.projects-filtr__button--active {
   background-color: var(--accent-color);
   color: var(--main-background-color);
 }
 
-.our-projects__button:hover,
-.our-projects__button:focus {
+.projects-filtr__button:hover,
+.projects-filtr__button:focus {
   background-color: var(--accent-color);
   color: var(--main-background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -698,7 +698,7 @@ img {
 
 /* Cardset */
 
-.our-projects__list {
+.our-projects {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
