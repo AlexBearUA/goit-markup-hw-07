@@ -81,12 +81,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -296,12 +296,11 @@ img {
   -webkit-transition: color var(--time-transition) var(--time-func);
   transition: color var(--time-transition) var(--time-func);
 }
-.find-us__link:hover, .find-us__link:focus {
-  color: var(--accent-color);
-}
-
 .find-us__link--color {
   color: var(--main-background-color);
+}
+.find-us__link:hover, .find-us__link:focus {
+  color: var(--accent-color);
 }
 
 .footer__title {
@@ -986,9 +985,6 @@ img {
 
 .sign-us-button {
   gap: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 10px 28px;
 }
 

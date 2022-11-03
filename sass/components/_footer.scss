@@ -22,14 +22,14 @@
 
   transition: color var(--time-transition) var(--time-func);
 
+  &--color {
+    color: var(--main-background-color);
+  }
+
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
-}
-
-.find-us__link--color {
-  color: var(--main-background-color);
 }
 
 .footer__title {
