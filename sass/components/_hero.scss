@@ -28,7 +28,8 @@
   color: var(--main-background-color);
 }
 
-.hero__main-button {
+.hero-button {
+  @extend %main-button;
   margin: 0 auto;
   padding: 10px 32px;
 }

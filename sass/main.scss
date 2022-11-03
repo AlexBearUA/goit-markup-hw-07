@@ -1,11 +1,14 @@
 @import './utils/variables';
-@import './bases/general';
-@import './components/contact-from';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './base/general';
+@import './components/close-button';
+@import './components/contact-form';
 @import './components/footer';
 @import './components/header';
 @import './components/hero';
 @import './components/logo';
-@import './components/main-button';
+
 @import './components/modal-window';
 @import './components/our-advantages';
 @import './components/our-directions';

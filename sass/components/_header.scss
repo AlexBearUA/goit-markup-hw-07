@@ -29,6 +29,11 @@
   text-decoration: none;
   color: var(--title-text-color);
   transition: color var(--time-transition) var(--time-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .our-contacts {
@@ -48,6 +53,11 @@
   color: var(--main-text-color);
 
   transition: color var(--time-transition) var(--time-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .our-contacts__icon {
@@ -55,31 +65,24 @@
   fill: currentColor;
 }
 
-.header__link:hover,
-.header__link:focus,
-.our-contacts__link:hover,
-.our-contacts__link:focus {
-  color: var(--accent-color);
-}
-
 .header__link--current {
   color: var(--accent-color);
-}
 
-.header__link--current::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  bottom: -1px;
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -1px;
 
-  border-radius: 2px;
-  background-color: var(--accent-color);
+    border-radius: 2px;
+    background-color: var(--accent-color);
 
-  animation-name: current-underline;
-  animation-duration: 350ms;
-  animation-timing-function: linear;
+    animation-name: current-underline;
+    animation-duration: 350ms;
+    animation-timing-function: linear;
+  }
 }
 
 @keyframes current-underline {

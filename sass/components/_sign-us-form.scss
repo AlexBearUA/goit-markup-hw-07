@@ -20,24 +20,25 @@
   letter-spacing: 0.03em;
   line-height: 1.25;
   color: var(--main-text-color);
+
+  &:focus-within {
+    background-color: var(--main-background-color);
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:focus-within::placeholder {
+    color: var(--main-text-color);
+  }
 }
 
-.sign-us__input:focus-within {
-  background-color: var(--main-background-color);
-}
-
-.sign-us__input::placeholder {
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.sign-us__input:focus-within::placeholder {
-  color: var(--main-text-color);
-}
-
-.sign-us__main-button {
+.sign-us-button {
+  @extend %main-button;
   gap: 10px;
   align-items: center;
   padding: 10px 28px;
@@ -46,8 +47,6 @@
 .sign-us__icon {
   width: 24px;
   height: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex();
   fill: var(--main-background-color);
 }

@@ -9,10 +9,10 @@
 .our-directions__item {
   min-width: 370px;
   position: relative;
-}
 
-.our-directions__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .our-directions__text {
